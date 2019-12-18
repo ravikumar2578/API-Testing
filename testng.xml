@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ExtramarksWebsiteSuite" parallel="classes" thread-count="4">
+
+ <test name="Student Login Test">
+<classes>
+<class name="com.ExtramarksWebsite_TestCases.StudentLoginTest"/>
+</classes>
+ </test>
+ 
+ <!-- <test name= "Student Dashboard Test">
+<classes>
+<class name="com.ExtramarksWebsite_TestCases.StudentDashboardTest"/>
+</classes>
+</test>  
+
+<test name= "Student Schedule Test">
+<classes>
+<class name="com.ExtramarksWebsite_TestCases.StudentScheduleTest" />
+</classes>
+</test>  
+
+<test name= "Student Notes Test">
+<classes>
+<class name="com.ExtramarksWebsite_TestCases.StudentNotesTest" />
+</classes>
+</test> 
+ 
+<test name= "Student Report Test">
+<classes>
+<class name="com.ExtramarksWebsite_TestCases.StudentReportTest" />
+</classes>
+</test>  -->
+  
+<!-- <test name= "Mentor Login Test">
+<classes>
+<class name="com.ExtramarksWebsite_TestCases.MentorLoginTest" />
+</classes>
+</test>  --> 
+
+<!-- <test name= "Mentor Dashboard Test">
+<classes>
+<class name="com.ExtramarksWebsite_TestCases.MentorDashboardTest" />
+</classes>
+</test> 
+
+ <test name= "Mentor Student Test">
+<classes>
+<class name="com.ExtramarksWebsite_TestCases.MentorStudentTest" />
+</classes>
+</test>  
+  
+ <test name= "Mentor Assessment Test">
+<classes>
+<class name="com.ExtramarksWebsite_TestCases.MentorAssessmentTest" />
+</classes>
+</test>   -->
+
+<!--<test name= "Student Assessment Test">
+<classes>
+<class name="com.ExtramarksWebsite_TestCases.StudentAssessmentTest"/>
+</classes> 
+</test>  -->
+
+<!-- <test name="Parent Login Test" >
+ <classes>
+  <class name="com.ExtramarksWebsite_TestCases.ParentLoginTest" />
+ </classes>
+ </test>  -->
+ 
+<!-- <test name= "Parent Dashboard Test">
+<classes>
+<class name="com.ExtramarksWebsite_TestCases.ParentDashboardTest" />
+</classes>
+</test>  
+
+<test name= "Parent ChildSubscription Test">
+<classes>
+<class name="com.ExtramarksWebsite_TestCases.ParentChildSubscriptionTest" />
+</classes>
+</test>  
+ <test name= "Parent MyChild Test">
+<classes>
+<class name="com.ExtramarksWebsite_TestCases.ParentMyChildTest" />
+</classes>
+</test> 
+    -->
+</suite>
